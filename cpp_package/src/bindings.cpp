@@ -6,7 +6,7 @@
 
 namespace py = pybind11;
 
-PYBIND11_MODULE(my_module, m) {
+PYBIND11_MODULE(cpp_package, m) {
     m.doc() = R"pbdoc(
         My Optimization Module
         ----------------------
